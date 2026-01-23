@@ -1,4 +1,4 @@
-package K02_dataKullanimi;
+package K02_Data;
 
 public class C02_DatasAndVariables {
     public static void main(String[] args) {
