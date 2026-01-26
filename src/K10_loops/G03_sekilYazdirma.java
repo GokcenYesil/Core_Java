@@ -1,0 +1,48 @@
+package K10_loops;
+
+import java.util.Scanner;
+
+public class G03_sekilYazdirma {
+
+    public static void main(String[] args) {
+
+         /*
+            kullanicidan satir ve sutun sayisini alip asagidaki sekli yazdirin
+            orn satir = 4 , sutun= 5 oldugunda
+             2 3 4 5 6
+             3 4 5 6 7
+             4 5 6 7 8
+             5 6 7 8 9
+
+         */
+
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Lutfen Satır Sayısı Giriniz: ");
+        int satir = scanner.nextInt();
+        System.out.println("Lutfen Sütun Sayısı Giriniz: ");
+        int sutun = scanner.nextInt();
+
+        for (int i = 1; i <=satir ; i++) {
+
+            for (int j = 1; j <=sutun; j++) {
+
+                System.out.print(i + j + " ");
+
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
