@@ -67,7 +67,7 @@ java-practice/
 ├── K30_exceptions/              → Exception handling
 ├── K31_iteratorListIterator/    → Iterator and ListIterator
 ├── K32_set/                     → Set collections
-└── K36_maps/                    → Map collections
+└── K33_maps/                    → Map collections
 
 ---
 
